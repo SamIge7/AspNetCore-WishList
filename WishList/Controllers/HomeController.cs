@@ -18,7 +18,7 @@ namespace WishList.Controllers
 
         public IActionResult Error()
         {
-            return View("~/Views/Shared/Error");
+            return View("Error");
         }
     }
 }
